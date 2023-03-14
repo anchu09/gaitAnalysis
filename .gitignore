@@ -1,0 +1,22 @@
+# Data directories (private, not tracked) — /data/ anchors to repo root only
+/data/
+/results/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Editors / OS
+.DS_Store
+.vscode/
+**/.idea/
+*.swp
+
+# Jupyter
+.ipynb_checkpoints/
